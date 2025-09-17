@@ -2,7 +2,7 @@ app_name = "ppecon_erp"
 app_title = "Pioneer Project Excecuters"
 app_publisher = "altamash"
 app_description = "Pioneer ERPNext Development"
-app_email = "altamash@ppecon.con"
+app_email = "altamash@ppecon.com"
 app_license = "mit"
 
 # Apps
@@ -24,6 +24,13 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+
+app_include_css = "/assets/ppecon_erp/css/custominternal.css"
+# app_include_js = "/assets/customization_app/js/custominternal.js"
+
+
+# For Website (login page, portal, web views)
+web_include_css = "/assets/ppecon_erp/css/login.css"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ppecon_erp/css/ppecon_erp.css"
 # app_include_js = "/assets/ppecon_erp/js/ppecon_erp.js"

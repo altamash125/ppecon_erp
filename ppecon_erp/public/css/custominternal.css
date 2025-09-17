@@ -1,0 +1,324 @@
+body { 
+  background: #b3d1ff !important; 
+  color: #2C3A47;
+  
+}
+
+/* Card page sections on colored body */
+.page-card, .card {
+  background: #fff !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+} 
+
+/* ================= Navbar ================= */
+.navbar {
+  background:#b3d1ff!important; /* Light blue navbar */
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.navbar .navbar-brand {
+  font-weight: 800;
+  color: #2C3A47 !important; /* dark text for contrast */
+  text-shadow: none;
+  letter-spacing: -0.5px;
+}
+
+.navbar .nav-link {
+  color: #2C3A47 !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+  border-radius: 6px;
+  padding: 6px 12px !important;
+}
+
+.navbar .nav-link:hover {
+  background: rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* ================= Sidebar ================= */
+.layout-side-section {
+  background: #b3d1ff !important; /* Light blue sidebar */
+  border-right: none !important;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  color: #2C3A47 !important;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 4px 8px !important;
+  padding: 8px 12px !important;
+  font-weight: 600;
+}
+
+.sidebar-item:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: lightseagreen !important;
+  transform: translateX(5px);
+}
+
+.sidebar-item.active {
+  background: #2C3A47 !important; 
+  color: #fff !important;
+  font-weight: 700;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn{
+  box-shadow: inset 0px 1px 0px 0px #dcecfb;
+  background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+  background-color: #bddbfa;
+  border-radius: 4px;                /* frappe uses 4px */
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;                   /* frappe button font size */
+  font-weight: 600;                  /* frappe buttons are semi-bold */
+  padding: 4px 12px;                 /* frappe button padding */
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+  background-color: #80b5ea;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+  box-shadow: inset 0px 2px 3px rgba(0,0,0,0.2);
+}
+.container.my-20 {
+  /* your card styles here */
+  background: black;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+} 
+
+
+/* .layout-main-section{
+background: #b3d1ff !important;
+} */
+
+.nav-welcome{
+    
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* .navbar-home {
+	background: #e6f0ff;
+} */
+
+/* ================= Body ================= */
+/* body { 
+  background: linear-gradient(135deg, #6dd5ed, #2193b0) !important; 
+  background-attachment: fixed;
+  background-size: cover;
+  color: #2C3A47;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* ================= Card ================= */
+/* .page-card, .card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.page-card:hover, .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+} */
+
+/* ================= Navbar ================= */
+/* .navbar {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0) !important;
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+} */
+
+/* .navbar .navbar-brand {
+  font-weight: 800;
+  color: #fff !important;
+  letter-spacing: -0.5px;
+  font-size: 20px;
+} */
+
+/* .navbar .nav-link {
+  color: #f1f1f1 !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+  border-radius: 8px;
+  padding: 8px 14px !important;
+}
+
+.navbar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff !important;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+} */
+
+/* ================= Sidebar ================= */
+/* .layout-side-section {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0) !important;
+  border-right: none !important;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.sidebar-item {
+  color: #fff !important;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin: 6px 10px !important;
+  padding: 10px 14px !important;
+  font-weight: 600;
+} */
+
+/* .sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #fff !important;
+  transform: translateX(6px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.sidebar-item.active {
+  background: #2C3A47 !important; 
+  color: #fff !important;
+  font-weight: 700;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+} */
+
+/* ================= Buttons ================= */
+/* .btn {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  border: none;
+  border-radius: 8px;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 8px 16px;
+  text-shadow: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #56c7d9, #147a96);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: inset 0px 2px 6px rgba(0,0,0,0.2);
+} */
+
+/* ================= Container ================= */
+/* .container.my-20 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  color: #fff;
+} */
+
+
+/* ---- Primary Buttons ---- */
+/* .btn-primary {
+    background-color: #FFD966 !important;
+    border-color: #e6c74d !important;
+    color: #222 !important;
+} */
+
+/* Hover / Focus / Active States */
+/* .btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #FFE88C !important;  
+    border-color: #e6c74d !important;
+    color: #000 !important; 
+} */
+
+/* Disabled State */
+/* .btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #f5e1a6 !important;
+    border-color: #e6c74d !important;
+    color: #777 !important;
+} */
+
+/* ================= Base Buttons ================= */
+/* .btn,
+.btn-primary,
+.btn-secondary,
+.btn-default,
+.btn-light,
+.btn-info,
+.btn-success,
+.btn-danger,
+.btn-warning {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 8px 16px !important;
+  text-shadow: none !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+  transition: all 0.3s ease-in-out !important;
+  line-height: 1.5 !important; 
+} */
+
+/* ================= Hover / Focus / Active ================= */
+/* .btn:hover,
+.btn:focus,
+.btn:active,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-default:hover,
+.btn-light:hover,
+.btn-info:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover {
+  background: linear-gradient(135deg, #56c7d9, #147a96) !important;
+  color: #fff !important;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3) !important;
+} */
+
+/* ================= Disabled ================= */
+/* .btn:disabled,
+.btn.disabled,
+.btn-primary:disabled,
+.btn-secondary:disabled,
+.btn-light:disabled {
+  background: #b2ebf2 !important;
+  color: #666 !important;
+  cursor: not-allowed !important;
+  box-shadow: none !important;
+} */
+
